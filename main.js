@@ -16,15 +16,15 @@ document.body.appendChild(renderer.domElement);
 
 const loader = new THREE.TextureLoader();
 
-const texture = loader.load("image.jpg"); // use your own image
-const disp = loader.load("displacement-map.jpg"); // grayscale displacement map
-const cloudTexture = loader.load("clouds.png");
-const nightTexture = loader.load("nightlights.png");
+const texture = loader.load("assets/image.jpg"); // use your own image
+const disp = loader.load("assets/displacement-map.jpg"); // grayscale displacement map
+const cloudTexture = loader.load("assets/clouds.png");
+const nightTexture = loader.load("assets/nightlights.png");
 
 const sunGeometry = new THREE.SphereGeometry(0.05, 16, 16);
 const sunMaterial = new THREE.MeshBasicMaterial({
   color: 0xffcc00,
-  transparent:true,
+  transparent: true,
   opacity: 0.9,
 });
 const sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
