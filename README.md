@@ -5,7 +5,7 @@
 
 
 🚀 What is this?
-planetjs is a lightweight interactive WebGL demo (probably using Three.js behind the scenes) that visualizes a spinning planet with:
+planetjs is a lightweight interactive WebGL demo (using Three.js behind the scenes) that visualizes a spinning planet with:
 
 - 🌍 Day texture
 
